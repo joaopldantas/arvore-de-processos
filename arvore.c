@@ -59,6 +59,6 @@ int main() {
     wait(NULL); //F1
     wait(NULL); //F2
 
-    printf("[P1] Sou o pai. PID=%d.\n", getpid());
+    printf("[P1] Sou o pai. PID=%d. Encerrando o programa.\n", getpid());
     return 0;
 }
